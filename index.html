@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My jQuery</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </link>
+    <script src="src/js/requestPage.js" defer></script>
+</head>
+
+<body>
+    <!-- Header of page -->
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li getPage="assets/bootstrap.html">Bootstrap</li>
+                <li getPage="assets/webpack.html">Webpack</li>
+                <li getPage="assets/ajax.html">Ajax</li>
+                <li getPage="assets/gulp.html">Gulp</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="localRequest"></section>
+    <main id="conteiner">
+        <section id="aboutText">
+            <article>
+                <div class="versionMobile">
+                    <h2>jQuery & Ajax</h2>
+                    <p>Write less, do more from jquery.</p>
+                    <p>Requesições de forma fácil e rápida.</p>
+                    <p>Conheça sobre aplicações modernas.</p>
+                </div>
+            </article>
+
+        </section>
+        <!-- sectin about -->
+        <section class="conteiner-row-options">
+
+            <details >
+                <summary change-icon class="titleClick">O que é jQuery ?
+                    <span class="icon">
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                </summary>
+                <p class="textOptions">
+                    jQuery é uma biblioteca de funções JavaScript que interage com o HTML, desenvolvida para simplificar
+                    os scripts interpretados no navegador do cliente. Usada por cerca de 74.4% dos 10 mil sites mais
+                    visitados do mundo, jQuery é a mais popular das bibliotecas JavaScript.
+                </p>
+            </details>
+            <details >
+                <summary change-icon class="titleClick">Quando devo utilizar ?
+                    <span class="icon">
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                </summary>
+                <p class="textOptions">
+                    <strong>Quando você previsa... </strong> 
+                    <br>
+                    <ul class="listAboutUtilits">
+                        <li>Aicionar scripts e outros elementos dinâmicos, como animações.</li>
+                        <li>Reduzir códigos em JavaScript.</li>
+                        <li>Criar uma sintaxe mais fluida.</li>
+                        <li>Aumentar a compatibilidade entre códigos e navegadores.</li>
+                        <li>Orientar a inspeção e a manipulação de documentos em HTML, XML ou XHTML.</li>
+                    </ul>
+                </p>
+            </details>
+            <details>
+                <summary change-icon class="titleClick">Vale a pena estudar ?
+                    <span class="icon">
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                </summary>
+                <p class="textOptions">
+                    Pelo menos saber como ele funciona, <strong>sim, vale muito a pena</strong>. Há muitos cenários possíveis no mundo da programação e pode aparecer um caso em que a ferramenta se encaixe perfeitamente para a sua necessidade..
+                </p>
+            </details>
+            <details >
+                <summary change-icon class="titleClick">Bootstrap substituiu ?
+                    <span class="icon">
+                        <i class="fa-solid fa-check"></i>
+                    </span>
+                </summary>
+                <p class="textOptions">
+                    O Bootstrap é uma estrutura de código aberto para soluções móveis responsivas na web. O time de desenvolvedores da empresa lançou recentemente a versão 4.3 do framework com seus planos para remover o jQuery.
+                </p>
+            </details>
+
+        </section>
+    </main>
+</body>
+
+</html>
